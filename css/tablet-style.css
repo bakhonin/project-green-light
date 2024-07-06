@@ -1,0 +1,101 @@
+@media screen and (min-width: 767px) {
+  /* ___________________ HEADER __________________ */
+
+  .burger-menu-nav {
+    display: none;
+  }
+
+  .burger-menu-btn {
+    display: none;
+  }
+
+  /* ___________________ HERO __________________ */
+
+  .section-hero {
+    height: 450px;
+  }
+
+  .hero-title {
+    width: 280px;
+    font-size: 32px;
+  }
+
+  .hero-text {
+    width: 400px;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  /* ___________________ ABOUT __________________ */
+
+  .about-text {
+    width: 700px;
+  }
+
+  .img-about-section {
+    width: 600px;
+  }
+
+  /* ___________________ SERVICES __________________ */
+
+  .services-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .services:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .list-services {
+    max-width: 300px;
+  }
+
+  /* ___________________ CONTACT __________________ */
+
+  .contact-text {
+    width: 700px;
+  }
+
+  /* ___________________ FOOTER __________________ */
+
+  .text-title-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .text-footer {
+    max-width: 200px;
+    margin-left: 10px;
+  }
+
+  .img-logo-footer {
+    display: flex;
+    width: 70px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  /* ___________________ HEADER __________________ */
+
+  .header-address {
+    display: flex;
+    display: block;
+    color: #1fde02;
+  }
+
+  .address-nav {
+    margin-left: auto;
+    display: flex;
+  }
+
+  .item-header {
+    margin: 0 20px;
+  }
+
+  .section-hero {
+    height: 500px;
+  }
+}

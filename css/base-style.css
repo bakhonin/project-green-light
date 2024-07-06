@@ -1,0 +1,85 @@
+:root {
+  --primery-background-color: rgba(20, 20, 27, 1);
+  --accent-color: rgba(31, 222, 2, 0.4);
+
+  --primery-text-color: #1fde02;
+  --title-text-color: #1fde02;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--primery-background-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1fde02;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding-top: 30px;
+
+  color: #1fde02;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-family: Roboto, sans-serif;
+}
+
+.text {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #1fde02;
+}
+
+html {
+  scroll-behavior: smooth;
+}
