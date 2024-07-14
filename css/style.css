@@ -30,6 +30,8 @@
 .logo {
   display: flex;
   align-items: flex-end;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
 }
 
 .img-logo {
@@ -44,6 +46,15 @@
   font-size: medium;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .address-nav {
   display: flex;
 }
@@ -52,6 +63,7 @@
   display: flex;
   padding-top: 20px;
   gap: 12px;
+  align-items: center;
 }
 
 .header-address {
@@ -286,6 +298,28 @@
 .with-icon-address::before {
   content: '';
   background-image: url('/public/img/icons8-location-50.png');
+  background-size: 18px 18px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contact-time {
+  margin-top: 6px;
+  font-size: 18px;
+}
+
+.with-icon-time {
+  position: relative;
+  padding-left: 24px;
+}
+
+.with-icon-time::before {
+  content: '';
+  background-image: url('/public/img/icons8-time-50.png');
   background-size: 18px 18px;
   width: 18px;
   height: 18px;
